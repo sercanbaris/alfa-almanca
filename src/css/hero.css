@@ -1,0 +1,63 @@
+.tanitim-video {
+    width: 500px;
+    border-radius: 10px;
+}
+
+
+.hero {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 70px);
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ust {
+    display: flex;
+    justify-content: center;
+}
+
+.alt {}
+
+.left {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.right {
+    display: flex;
+    width: 40%;
+
+    justify-content: center;
+}
+
+.slogan {
+    margin-top: 40px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+.almanca {
+    background: linear-gradient(to bottom, #000000, #DD0000, #FFCC00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 1000;
+}
+
+.description {
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: 300;
+}
+
+.social-icons {
+    width: 50px;
+}

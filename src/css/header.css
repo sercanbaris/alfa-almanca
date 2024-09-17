@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    height: 100px;
+    /* background-color: aquamarine; */
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.logo {
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.link {
+    display: flex;
+    justify-content: center;
+    color: var(--alfaBlue);
+    text-decoration: none;
+    width: 130px;
+    align-items: center;
+    font-weight: 600;
+    transition: 0.4s ease;
+}
+
+.link:hover {
+    color: var(--alfaOrange);
+}
+
+.social-icon {
+    font-size: 20px;
+    margin-left: 5px;
+}

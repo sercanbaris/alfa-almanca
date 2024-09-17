@@ -1,0 +1,50 @@
+.success {
+    height: 100vh;
+    background-image: url('./success.jpg'), linear-gradient(rgba(0, 0, 0, 0.827), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.success-title {
+    background: linear-gradient(to right, #30CFD0, #c43ad6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: bold;
+    width: 700px;
+    text-align: center;
+}
+
+
+.success-content {
+    color: aliceblue;
+    font-size: 20px;
+    width: 800px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.success-buton {
+    background-color: var(--alfaOrange);
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.success-buton:hover {
+    background-color: var(--alfaBlue);
+    transition: ease 1s;
+
+
+}
