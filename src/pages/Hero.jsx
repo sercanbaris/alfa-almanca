@@ -30,7 +30,7 @@ function Hero() {
           url="https://www.youtube.com/watch?v=LXb3EKWsInQ"
         /> */}
           <video
-            poster="./images/video-cover.png"
+            // poster="./images/video-cover.png"
             className="tanitim-video"
             controls
           >
@@ -38,14 +38,14 @@ function Hero() {
           </video>
         </div>
       </div>
-      {/* <div className="alt">
+      <div className="alt">
         <div className="social-media-logo">
           <img className="social-icons" src="/instagram.png" alt="" />
           <img className="social-icons" src="/whatsapp.png" alt="" />
           <img className="social-icons" src="/google-maps.png" alt="" />
           <img className="social-icons" src="/eksisozluk.jpg" alt="" />
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }

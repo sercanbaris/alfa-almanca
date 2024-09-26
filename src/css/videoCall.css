@@ -1,5 +1,4 @@
 .videoCall {
-
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -11,11 +10,7 @@
     background-attachment: fixed;
     height: 100vh;
     background-blend-mode: overlay;
-
-
-
 }
-
 
 .v-title {
     background: linear-gradient(to right, #30CFD0, #c43ad6);
@@ -29,10 +24,11 @@
 
 .v-parag {
     color: aliceblue;
-    font-size: 20px;
-    width: 600px;
+    font-size: 16px;
+    width: 800px;
     text-align: center;
     margin-top: 50px;
+    text-align: justify;
 }
 
 .v-buton {
@@ -48,6 +44,4 @@
 .v-buton:hover {
     background-color: var(--alfaBlue);
     transition: ease 1s;
-
-
 }

@@ -11,10 +11,11 @@
     height: 100vh;
 }
 
+
 .about-picture {
     display: flex;
 
-    width: 50%;
+    width: 30%;
 }
 
 .about-text {
@@ -27,8 +28,9 @@
 }
 
 .about-pic {
-    border-radius: 50%;
+
     width: 100%;
+
 }
 
 
@@ -42,5 +44,5 @@
 }
 
 .about-description {
-    font-size: 20px;
+    font-size: 16px;
 }
