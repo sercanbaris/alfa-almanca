@@ -13,15 +13,38 @@ function Hero() {
             <span className="almanca">ALMANCA</span> ÖĞREN
           </div>
           <div className="description">
-            Zaman kaybetmeden ve net bir hedef göz önünde bulundurarak
-            Almanya'da geçerli bir sertifika sınavını istediğin seviyede geçene
-            kadar beyin dostu bir sistemle Almanca öğren. <br /> <br />
-            Kendimizi, Türkçe konuşan insanları başarılı bir şekilde hedeflerine
-            ulaştıran Almanya'daki ilk tamamen dijital dil okulu olarak
-            görüyoruz.
+            Yoğun bir programın mı var? Almanca öğrenmek istiyorsun ama zaman
+            bulmakta zorlanıyor musun? Artık ders kaçırma derdi olmadan, esnek
+            saatlerle Almanca öğrenmeye başlayabilirsin!
+            <br />
+            <br />
+            Almanca kurslarımız sayesinde istediğin zaman, istediğin yerde
+            derslere katılabilir, kendi hızında öğrenme fırsatını
+            yakalayabilirsin. Hem başlangıç seviyesindekiler hem de dilini
+            ilerletmek isteyenler için ideal! Üstelik özel ders seçeneklerimizle
+            birebir eğitim alabilir, eksiklerini hızla kapatabilirsin.
           </div>
+
           <div className="slogan">
-            #ONLINE ALMANCA KURSU Eğitimlere her yerden erişebilirsiniz
+            Neden Bizi Tercih Etmelisin?
+            <ul>
+              <li>
+                Esnek Ders Saatleri: Dilediğin zaman dersi başlat, dilediğin
+                kadar çalış!{" "}
+              </li>
+              <li>
+                Özel Ders Seçenekleri: Birebir eğitimle dil becerilerini hızla
+                geliştir.
+              </li>
+              <li>
+                Online Erişim: Mobil, tablet veya bilgisayar üzerinden kolayca
+                erişim.
+              </li>
+              <li>
+                Uzman Eğitmenler: Deneyimli eğitmenlerimiz ile hedeflerine hızla
+                ulaş.
+              </li>
+            </ul>
           </div>
         </div>
         <div className="right">
@@ -36,16 +59,15 @@ function Hero() {
           >
             <source src="./video/alfa-almanca.mp4" type="video/mp4" />
           </video>
+          <div className="social-media-logo">
+            <img className="social-icons" src="/instagram.png" alt="" />
+            <img className="social-icons" src="/whatsapp.png" alt="" />
+            <img className="social-icons" src="/google-maps.png" alt="" />
+            <img className="social-icons eksi" src="/eksisozluk.jpeg" alt="" />
+          </div>
         </div>
       </div>
-      <div className="alt">
-        <div className="social-media-logo">
-          <img className="social-icons" src="/instagram.png" alt="" />
-          <img className="social-icons" src="/whatsapp.png" alt="" />
-          <img className="social-icons" src="/google-maps.png" alt="" />
-          <img className="social-icons" src="/eksisozluk.jpg" alt="" />
-        </div>
-      </div>
+      <div className="alt"></div>
     </div>
   );
 }
