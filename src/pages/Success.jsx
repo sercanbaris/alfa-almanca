@@ -4,7 +4,9 @@ function Success() {
   return (
     <div className="success">
       <div className="success-title">
-        Dil Öğrenmenin Anahtarı: 5B Metodumuzla Başarıya Ulaşın
+        Dil Öğrenmenin Anahtarı: <br />
+        <strong>5B Metodumuzla</strong>
+        <br /> Başarıya Ulaşın
       </div>
       <div className="success-content">
         <p>

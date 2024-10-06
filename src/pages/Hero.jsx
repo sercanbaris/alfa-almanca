@@ -67,7 +67,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="alt"></div>
+      {/* <div className="alt"></div> */}
     </div>
   );
 }

@@ -18,16 +18,16 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 500;
     width: 700px;
-    text-align: justify;
+    text-align: center;
 }
 
 
 .success-content {
     color: aliceblue;
     font-size: 18px;
-    width: 800px;
+    width: 80%;
     text-align: justify;
     margin-top: 50px;
 }
@@ -46,5 +46,18 @@
     background-color: var(--alfaBlue);
     transition: ease 1s;
 
+
+}
+
+@media (max-width: 768px) {
+    .success-title {
+        width: 90%;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .success-content {
+        font-size: 16px;
+    }
 
 }

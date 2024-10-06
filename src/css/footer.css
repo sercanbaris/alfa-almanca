@@ -8,13 +8,14 @@
 }
 
 .footer {
-    width: 600px;
+    width: 80%;
     height: 200px;
 
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+
 }
 
 .footer-logo-svg {
@@ -26,6 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 
 }
 
@@ -49,4 +51,16 @@
 
 .footer-sign {
     color: #8750f7;
+}
+
+@media (max-width: 768px) {
+    .footer-links {
+        flex-direction: column;
+    }
+
+    .footer-link {
+        font-weight: 200;
+        color: white;
+    }
+
 }
