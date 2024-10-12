@@ -2,7 +2,7 @@ import React from 'react'
 
 function Deneme() {
   return (
-    <div>Deneme</div>
+    <div>Deneme asl</div>
   )
 }
 
