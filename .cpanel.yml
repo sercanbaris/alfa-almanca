@@ -4,6 +4,5 @@ deployment:
     - npm install
     - npm run build
     - export DEPLOYPATH=/home/sercanbaris/public_html
-    - /bin/cp -r build/* $DEPLOYPATH/
+    - /bin/cp -r dist/* $DEPLOYPATH/
     - echo "Deployment completed successfully."
-
