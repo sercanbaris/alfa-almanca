@@ -3,6 +3,6 @@ deployment:
   tasks:
     - npm install
     - npm run build
-    - export DEPLOYPATH=/home/sercanbaris/public_html
+    - export DEPLOYPATH=/home/admin/public_html
     - /bin/cp -r dist/* $DEPLOYPATH/
     - echo "Deployment completed successfully."
