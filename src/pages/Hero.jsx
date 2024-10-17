@@ -54,7 +54,7 @@ function Hero() {
           url="https://www.youtube.com/watch?v=LXb3EKWsInQ"
         /> */}
           <video
-            // poster="./images/video-cover.png"
+            poster="./images/video-cover.png"
             className="tanitim-video"
             controls
           >
