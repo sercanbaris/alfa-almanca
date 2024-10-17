@@ -54,6 +54,8 @@ font-size: 24px;
     }
 
     .videoCall {
-        background-attachment: scroll;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
