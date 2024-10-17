@@ -55,6 +55,12 @@ function Hero() {
           url="https://www.youtube.com/watch?v=LXb3EKWsInQ"
         /> */}
 
+          <ReactPlayer
+            url="https://player.vimeo.com/external/1004895881.m3u8?s=7ad09315594d2a17e3c4dd422011cacbe9a8e24c&logging=false"
+            controls={true}
+            light="./images/video-cover.png"
+          />
+
           {/* <video
             poster="./images/video-cover.png"
             className="tanitim-video"
@@ -62,7 +68,6 @@ function Hero() {
           >
             <source src="./video/alfa-almanca.mp4" type="video/mp4" />
           </video> */}
-          <Vimeo video={58479} width={640} height={480} autoplay />
 
           <div className="social-media-logo">
             <img className="social-icons" src="/instagram.png" alt="" />
