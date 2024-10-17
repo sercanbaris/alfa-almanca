@@ -56,7 +56,7 @@ function Hero() {
         /> */}
 
           <ReactPlayer
-            url="https://player.vimeo.com/external/1004895881.m3u8?s=7ad09315594d2a17e3c4dd422011cacbe9a8e24c&logging=false"
+            url="https://vimeo.com/1004895881"
             controls={true}
             light="./images/video-cover.png"
           />
