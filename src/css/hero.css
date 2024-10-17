@@ -87,8 +87,10 @@
 
 @media (max-width: 768px) {
 
+
     .hero {
-        height: auto;
+
+        height: calc(100vh);
     }
 
     .ust {
@@ -129,6 +131,9 @@
         padding: 10px;
     }
 
-    .tanitim-video {}
+    .tanitim-video {
+        /* margin-top: 20px; */
+        margin-bottom: 20px;
+    }
 
 }
