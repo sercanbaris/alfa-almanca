@@ -54,6 +54,7 @@
     }
 
     .videoCall {
-        -webkit-background-attachment: fixed;
+        -webkit-background-attachment: scroll;
+        background-attachment: scroll;
     }
 }
