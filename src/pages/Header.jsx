@@ -16,6 +16,7 @@ function Header() {
         <a className="link" href="#">
           Yorumlar
         </a>
+
         <a className="link" href="#">
           İletişim
         </a>

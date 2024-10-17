@@ -5,7 +5,10 @@
     width: 100%;
     align-items: center;
     justify-content: space-around;
+   
+    background: #fff;
 }
+
 
 .logo {
     width: 150px;
@@ -19,6 +22,7 @@
 
 .link {
     display: flex;
+    position: relative;
     justify-content: center;
     color: var(--alfaBlue);
     text-decoration: none;
@@ -28,8 +32,23 @@
     transition: 0.4s ease;
 }
 
+.link::before {
+    content: "";
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 0;
+   height: 2px;
+   background: #fff;
+   transition: .3s;
+}
+
 .link:hover {
     color: var(--alfaOrange);
+}
+
+.link:hover::before {
+   width: 100%;
 }
 
 .social-icon {

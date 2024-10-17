@@ -86,9 +86,14 @@
 
 @media (max-width: 768px) {
 
+    .hero{
+        height: auto;
+    }
+
     .ust {
 
         flex-direction: column-reverse;
+        margin-top: 90px;
 
     }
 
