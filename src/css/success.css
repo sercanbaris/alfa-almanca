@@ -60,4 +60,9 @@
         font-size: 16px;
     }
 
+    .success {
+        -webkit-background-attachment: scroll;
+        background-attachment: scroll;
+    }
+
 }
