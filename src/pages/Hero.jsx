@@ -1,6 +1,7 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import "../css/hero.css";
+import Vimeo from "@u-wave/react-vimeo";
 
 function Hero() {
   return (
@@ -53,13 +54,16 @@ function Hero() {
           style={{ borderRadius: "50px" }}
           url="https://www.youtube.com/watch?v=LXb3EKWsInQ"
         /> */}
-          <video
+
+          {/* <video
             poster="./images/video-cover.png"
             className="tanitim-video"
             controls
           >
             <source src="./video/alfa-almanca.mp4" type="video/mp4" />
-          </video>
+          </video> */}
+          <Vimeo video="x2to0hs" autoplay />
+
           <div className="social-media-logo">
             <img className="social-icons" src="/instagram.png" alt="" />
             <img className="social-icons" src="/whatsapp.png" alt="" />
