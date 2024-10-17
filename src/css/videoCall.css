@@ -54,10 +54,6 @@
     }
 
     .videoCall {
-        background-size: cover;
-        /* for mobile */
-        background-attachment: scroll;
-        background-position: center;
-        background-repeat: no-repeat;
+        -webkit-background-attachment: fixed;
     }
 }
