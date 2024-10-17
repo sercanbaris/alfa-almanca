@@ -62,7 +62,7 @@ function Hero() {
           >
             <source src="./video/alfa-almanca.mp4" type="video/mp4" />
           </video> */}
-          <Vimeo video="x2to0hs" autoplay />
+          <Vimeo video={58479} width={640} height={480} autoplay />
 
           <div className="social-media-logo">
             <img className="social-icons" src="/instagram.png" alt="" />
