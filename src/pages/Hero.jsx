@@ -32,6 +32,7 @@ function Hero() {
                 Esnek Ders Saatleri: Dilediğin zaman dersi başlat, dilediğin
                 kadar çalış!{" "}
               </li>
+
               <li>
                 Özel Ders Seçenekleri: Birebir eğitimle dil becerilerini hızla
                 geliştir.
