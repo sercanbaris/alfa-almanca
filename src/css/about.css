@@ -47,6 +47,11 @@
 
 
 @media (max-width: 768px) {
+
+    .about-container {
+        min-height: 100vh;
+    }
+
     .about {
 
         flex-direction: column;

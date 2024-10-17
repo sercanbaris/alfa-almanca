@@ -56,5 +56,6 @@
     .videoCall {
         -webkit-background-attachment: scroll;
         background-attachment: scroll;
+        min-height: 100vh;
     }
 }
