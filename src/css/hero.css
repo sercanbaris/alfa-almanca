@@ -87,7 +87,7 @@
 
 @media (max-width: 768px) {
 
-    .hero{
+    .hero {
         height: auto;
     }
 
@@ -129,9 +129,6 @@
         padding: 10px;
     }
 
-    .tanitim-video {
- 
-
-    }
+    .tanitim-video {}
 
 }
