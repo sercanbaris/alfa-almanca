@@ -24,7 +24,7 @@ function Hero() {
           <div className="social-media-logo">
             {/* <img className="social-icons" src="/whatsapp.png" alt="" /> */}
 
-            <a target="blank" href="https://www.instagram.com/alican_dayan">
+            <a target="blank" href="http://www.instagram.com/alican_dayan">
               <img className="social-icons" src="/instagram.png" alt="" />
             </a>
             <a
@@ -66,10 +66,7 @@ function Hero() {
                   öğreniyorsun.)
                 </li>
 
-                <li>
-                  ✅ Ders kaçırma problemin yok. enekleri: Birebir eğitimle dil
-                  becerilerini hızla geliştir.
-                </li>
+                <li>✅ Ders kaçırma problemin yok.</li>
                 <li>
                   ✅ Bir sınıfın hızına değil, kendi hızına bağlı olarak Almanca
                   öğreniyorsun.
