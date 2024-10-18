@@ -5,13 +5,36 @@
     width: 100%;
     align-items: center;
     justify-content: space-around;
-   
+
     background: #fff;
 }
 
 
 .logo {
     width: 150px;
+}
+
+.whatsappCall {
+    background-image: url("./whatsappCall.png");
+    width: 200px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    transition: ease 0.4s;
+    color: white;
+    font-size: 18px;
+    padding-left: 40px;
+    font-weight: 900;
+}
+
+
+.whatsappCall:hover {
+    /* boyutu büyüt */
+    transform: scale(1.05);
 }
 
 .menu {
@@ -34,13 +57,13 @@
 
 .link::before {
     content: "";
-   position: absolute;
-   top: 100%;
-   left: 0;
-   width: 0;
-   height: 2px;
-   background: #fff;
-   transition: .3s;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
 }
 
 .link:hover {
@@ -48,7 +71,7 @@
 }
 
 .link:hover::before {
-   width: 100%;
+    width: 100%;
 }
 
 .social-icon {
@@ -71,6 +94,11 @@
     .link {
         width: 100px;
         margin-left: 5px;
+    }
+
+    .menu {
+        /*  hide div */
+        display: none;
     }
 
 

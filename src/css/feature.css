@@ -6,12 +6,12 @@
 
 
 .item {
-    padding: 30px;
-    height: 300px;
+    padding: 20px;
+    height: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    width: 25%;
+    justify-content: center;
+    width: 33%;
     cursor: pointer;
     box-sizing: border-box;
 
@@ -37,10 +37,11 @@
     display: flex;
     justify-content: center;
     font-size: 14px;
+    flex-direction: column;
+    text-align: justify;
 
-    text-align: center;
-    height: 100px;
     color: var(--alfaBg);
+    margin-top: 20px;
 }
 
 
@@ -85,8 +86,7 @@
     }
 
     .item {
-        padding: 30px;
-        height: 300px;
+        padding: 20px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;

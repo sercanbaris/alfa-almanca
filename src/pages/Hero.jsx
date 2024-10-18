@@ -10,71 +10,99 @@ function Hero() {
         {" "}
         <div className="left">
           <div className="title">
-            Ders Kaçırma ve Zaman Sınırın Olmadan{" "}
-            <span className="almanca">ALMANCA</span> ÖĞREN
+            Ders Kaçırma ve Zaman Sınırın Olmadan <br /> Kısa Sürede <br />{" "}
+            Online <span className="almanca">ALMANCA</span> ÖĞREN
           </div>
-          <div className="description">
-            Yoğun bir programın mı var? Almanca öğrenmek istiyorsun ama zaman
-            bulmakta zorlanıyor musun? Artık ders kaçırma derdi olmadan, esnek
-            saatlerle Almanca öğrenmeye başlayabilirsin!
-            <br />
-            <br />
-            Almanca kurslarımız sayesinde istediğin zaman, istediğin yerde
-            derslere katılabilir, kendi hızında öğrenme fırsatını
-            yakalayabilirsin. Hem başlangıç seviyesindekiler hem de dilini
-            ilerletmek isteyenler için ideal! Üstelik özel ders seçeneklerimizle
-            birebir eğitim alabilir, eksiklerini hızla kapatabilirsin.
-          </div>
-
-          <div className="slogan">
-            Neden Bizi Tercih Etmelisin?
-            <ul>
-              <li>
-                Esnek Ders Saatleri: Dilediğin zaman dersi başlat, dilediğin
-                kadar çalış!{" "}
-              </li>
-
-              <li>
-                Özel Ders Seçenekleri: Birebir eğitimle dil becerilerini hızla
-                geliştir.
-              </li>
-              <li>
-                Online Erişim: Mobil, tablet veya bilgisayar üzerinden kolayca
-                erişim.
-              </li>
-              <li>
-                Uzman Eğitmenler: Deneyimli eğitmenlerimiz ile hedeflerine hızla
-                ulaş.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="right">
-          {/* <ReactPlayer
-          style={{ borderRadius: "50px" }}
-          url="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-        /> */}
 
           <ReactPlayer
-            onReady
-            width="auto"
-            url="https://player.vimeo.com/video/1004895881?h=f5442ec4f5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            width={"100%"}
+            height={"500px"}
+            className="video"
+            url="https://vimeo.com/1004895881"
             controls={true}
           />
-
-          {/* <video
-            poster="./images/video-cover.png"
-            className="tanitim-video"
-            controls
-          >
-            <source src="./video/alfa-almanca.mp4" type="video/mp4" />
-          </video> */}
-
           <div className="social-media-logo">
-            <img className="social-icons" src="/instagram.png" alt="" />
-            <img className="social-icons" src="/whatsapp.png" alt="" />
-            <img className="social-icons" src="/google-maps.png" alt="" />
-            <img className="social-icons eksi" src="/eksisozluk.jpeg" alt="" />
+            {/* <img className="social-icons" src="/whatsapp.png" alt="" /> */}
+
+            <a target="blank" href="https://www.instagram.com/alican_dayan">
+              <img className="social-icons" src="/instagram.png" alt="" />
+            </a>
+            <a
+              target="blank"
+              href="https://www.google.com.tr/maps/place/ALFA+ALMANCA+Y%C3%96NET%C4%B0M+OF%C4%B0S%C4%B0+(KAYIT+OF%C4%B0S%C4%B0+DE%C4%9E%C4%B0LD%C4%B0R)/@38.449037,27.1826559,17z/data=!4m18!1m9!3m8!1s0x14b9636191362b7b:0x21f0df196b32c40e!2zQUxGQSBBTE1BTkNBIFnDlk5FVMSwTSBPRsSwU8SwIChLQVlJVCBPRsSwU8SwIERFxJ7EsExExLBSKQ!8m2!3d38.449037!4d27.1852308!9m1!1b1!16s%2Fg%2F11w3h1276w!3m7!1s0x14b9636191362b7b:0x21f0df196b32c40e!8m2!3d38.449037!4d27.1852308!9m1!1b1!16s%2Fg%2F11w3h1276w?hl=tr&entry=ttu&g_ep=EgoyMDI0MTAxNS4wIKXMDSoASAFQAw%3D%3D"
+            >
+              <img className="social-icons" src="/google-maps.png" alt="" />
+            </a>
+            <a
+              target="blank"
+              href="https://eksisozluk.com/alfa-almanca--7561051"
+            >
+              <img
+                className="social-icons eksi"
+                src="/eksisozluk.jpeg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div className="description">
+            Tamamen kendi zamanına bağlı olarak Almanya'da geçerli bir sınavı
+            istediğin seviyede geçene kadar <br />
+            zaman sınırın ve ders kaçırma problemin olmadan kısa sürede Almanca
+            öğren.
+            <br />
+            <br />
+            Kendimizi, Türkçe konuşan insanları başarılı bir şekilde hedeflerine
+            ulaştıran <br /> Almanya'da kurulmuş ilk online Almanca kursu olarak
+            görüyoruz.
+          </div>
+
+          <div className="slogan-container">
+            <div className="slogan">
+              <span className="slogan-title">ÖĞRENME GARANTİSİ:</span>
+              <ul>
+                <li>
+                  ✅ Zaman sınırın yok. (Kitap bitti diye kur bitmiyor, sen
+                  gerçekten seviyeyi tamamlayana kadar ekstra ücret ödemeden
+                  öğreniyorsun.)
+                </li>
+
+                <li>
+                  ✅ Ders kaçırma problemin yok. enekleri: Birebir eğitimle dil
+                  becerilerini hızla geliştir.
+                </li>
+                <li>
+                  ✅ Bir sınıfın hızına değil, kendi hızına bağlı olarak Almanca
+                  öğreniyorsun.
+                </li>
+                <li>
+                  ✅ Hem GERÇEK ALMANCA hem de İSTEDİĞİN SINAVA YÖNELİK
+                  Almanca'yı bir arada götürüyorsun.
+                </li>
+                <li>
+                  ✅ Sadece bir öğretmen değil her kurda birden fazla
+                  öğretmenden destek alabiliyorsun.
+                </li>
+                <li>
+                  ✅ EĞİTİM PLATFORMU ve CANLI DERSLERDEN istediğin zaman
+                  faydalanabiliyorsun.
+                </li>
+                <li>
+                  ✅ SİSTEMATİK, BEYİN DOSTU, ALMAN EĞİTİM EKOLÜ İLE ÜRETİLMİŞ,
+                  DİSİPLİN gerektiren bir sisteme sahip oluyorsun.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="description">
+            TÜM BUNLARIN YANINDA ÖĞRENCİLERİMİZLE SAMİMİ BİR İLİŞKİ
+            İÇERİSİNDEYİZ, GÜCÜMÜZÜ ONLARDAN ALIYOR, <br />
+            BAŞARILARINI BAŞARIMIZ SAYIYOR, HEDEFLERİNE ULAŞANA KADAR ve
+            SONRASINDA BİLE YANLARINDA OLUYORUZ.
+            <br />
+            <br />
+            Her bir öğrencimiz ile kayıt olmadan önce görüntülü ücretsiz bir{" "}
+            öngörüşmede tanışıyor, tüm sistemimizi detayları ile anlatıyoruz.
           </div>
         </div>
       </div>
