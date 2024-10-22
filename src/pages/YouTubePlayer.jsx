@@ -19,15 +19,14 @@ const YouTubePlayer = ({ playlist }) => {
 
   return (
     <div className="youtube-player">
+      <h1 className="video-title">Öğrenci Yorumları ve Başarıları</h1>
       <button className="prev-button" onClick={handlePrev}>
         {window.innerWidth <= 768 ? "←" : <FaArrowLeft />}
       </button>
       <YouTube
         className="fullle"
         opts={
-          window.innerWidth <= 768
-            ? { width: "100%", maxHeight: "100vh" }
-            : { width: "100%", height: "100%" }
+          window.innerWidth <= 768 ? { width: "100%", maxHeight: "100vh" } : {}
         }
         videoId={playlist[currentIndex]}
       />
