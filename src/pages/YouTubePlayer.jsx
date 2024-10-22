@@ -20,7 +20,7 @@ const YouTubePlayer = ({ playlist }) => {
   return (
     <div className="youtube-player">
       <button className="prev-button" onClick={handlePrev}>
-        <FaArrowLeft />
+        {window.innerWidth <= 768 ? "←" : <FaArrowLeft />}
       </button>
       <YouTube
         className="fullle"
@@ -32,7 +32,7 @@ const YouTubePlayer = ({ playlist }) => {
         videoId={playlist[currentIndex]}
       />
       <button className="next-button" onClick={handleNext}>
-        <FaArrowRight />
+        {window.innerWidth <= 768 ? "←" : <FaArrowRight />}
       </button>
     </div>
   );
