@@ -36,15 +36,3 @@
 .next-button:hover {
     background-color: var(--alfaBg);
 }
-
-@media (max-width: 768px) {
-
-
-    .prev-button {
-        top: -30px;
-    }
-
-    .next-button {
-        top: -30px;
-    }
-}
