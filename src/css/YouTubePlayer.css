@@ -34,5 +34,20 @@
 
 .prev-button:hover,
 .next-button:hover {
-    background-color: darken(var(--alfaBlue), 10%);
+    background-color: var(--alfaBg);
+}
+
+@media (max-width: 768px) {
+    .youtube-player {
+        margin-top: 30px;
+        max-width: 100% !important;
+    }
+
+    .prev-button {
+        top: -30px;
+    }
+
+    .next-button {
+        top: -30px;
+    }
 }
