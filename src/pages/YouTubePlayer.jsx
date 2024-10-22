@@ -32,7 +32,7 @@ const YouTubePlayer = ({ playlist }) => {
         videoId={playlist[currentIndex]}
       />
       <button className="next-button" onClick={handleNext}>
-        {window.innerWidth <= 768 ? "←" : <FaArrowRight />}
+        {window.innerWidth <= 768 ? "→" : <FaArrowRight />}
       </button>
     </div>
   );
