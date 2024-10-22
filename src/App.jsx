@@ -11,7 +11,20 @@ import Services from "./pages/Services";
 import ScrollToTopButton from "./pages/ScrollToTopButton";
 import YouTubePlayer from "./pages/YouTubePlayer";
 
-const playlist = ["Nz8uTe0wDQ8", "932CXJspKeY", "WfdpsvBwgB0"];
+const playlist = [
+  "Nz8uTe0wDQ8",
+  "932CXJspKeY",
+  "WfdpsvBwgB0",
+  "Bpr65cMj6Zo",
+  "-FVt43nLWzA",
+  "PA9yJKyvLI8",
+  "3B7TUl_5gpc",
+  "TcP8wbsJRoQ",
+  "5E5tN_SG3T8",
+  "YYbglq8UMe8",
+  "eG2MLPKTCjE",
+  "wPCtuOnphaY",
+];
 
 function App() {
   return (

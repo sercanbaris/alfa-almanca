@@ -22,7 +22,15 @@ const YouTubePlayer = ({ playlist }) => {
       <button className="prev-button" onClick={handlePrev}>
         <FaArrowLeft />
       </button>
-      <YouTube videoId={playlist[currentIndex]} />
+      <YouTube
+        className="fullle"
+        opts={
+          window.innerWidth <= 768
+            ? { width: "100%", maxHeight: "100vh" }
+            : { width: "100%", height: "100%" }
+        }
+        videoId={playlist[currentIndex]}
+      />
       <button className="next-button" onClick={handleNext}>
         <FaArrowRight />
       </button>
