@@ -1,14 +1,21 @@
-import React from "react";
 import ReactPlayer from "react-player";
 import "../css/hero.css";
-import Vimeo from "@u-wave/react-vimeo";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Hero() {
   return (
     <div className="hero">
       <div className="ust">
-        {" "}
         <div className="left">
+          <a
+            className="ucretsiz-gorusme yesil"
+            target="blank"
+            href="https://api.whatsapp.com/send/?phone=491782483080&text=Merhaba%2C+%C3%BCcretsiz+%C3%B6ng%C3%B6r%C3%BC%C5%9Fme+i%C3%A7in+randevu+alabilir+miyim%3F&type=phone_number&app_absent=0"
+          >
+            <FaWhatsapp className="whatsapp " />
+            +49 178 2483080
+          </a>
+
           <div className="title">
             Ders Kaçırma ve Zaman Sınırın Olmadan <br /> Kısa Sürede <br />{" "}
             Online <span className="almanca">ALMANCA</span> ÖĞREN
@@ -44,6 +51,14 @@ function Hero() {
               />
             </a>
           </div>
+          <a
+            className="ucretsiz-gorusme"
+            target="blank"
+            href="https://api.whatsapp.com/send/?phone=491782483080&text=Merhaba%2C+%C3%BCcretsiz+%C3%B6ng%C3%B6r%C3%BC%C5%9Fme+i%C3%A7in+randevu+alabilir+miyim%3F&type=phone_number&app_absent=0"
+          >
+            <FaWhatsapp className="whatsapp" />
+            Ücretsiz ön görüşme için randevu al
+          </a>
           <div className="description">
             Tamamen kendi zamanına bağlı olarak Almanya'da geçerli bir sınavı
             istediğin seviyede geçene kadar <br />

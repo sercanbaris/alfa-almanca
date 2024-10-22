@@ -1,13 +1,14 @@
 .header {
     display: flex;
     height: 100px;
-    /* background-color: aquamarine; */
+
     width: 100%;
     align-items: center;
     justify-content: space-around;
 
-    background: #fff;
+
 }
+
 
 
 .logo {
@@ -15,34 +16,9 @@
 }
 
 
-.whatsappCall {
-    background-image: url("whatsappCall.png");
-    width: 200px;
-    height: 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    outline: none;
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-    transition: ease 0.4s;
-    color: white;
-    font-size: 18px;
-    padding-left: 40px;
-    font-weight: 900;
-}
 
 
-.whatsappCall:hover {
-    /* boyutu büyüt */
-    transform: scale(1.05);
-}
 
-.menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .link {
     display: flex;
@@ -92,15 +68,7 @@
         display: none;
     }
 
-    .link {
-        width: 100px;
-        margin-left: 5px;
-    }
 
-    .menu {
-        /*  hide div */
-        display: none;
-    }
 
 
 

@@ -8,10 +8,12 @@ import Footer from "./pages/Footer";
 import Success from "./pages/Success";
 import Exams from "./pages/Exams";
 import Services from "./pages/Services";
+import ScrollToTopButton from "./pages/ScrollToTopButton";
 
 function App() {
   return (
     <div>
+      <ScrollToTopButton />
       <Header />
       <Hero />
       <Feature />
