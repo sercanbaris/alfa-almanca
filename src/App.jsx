@@ -9,6 +9,9 @@ import Success from "./pages/Success";
 import Exams from "./pages/Exams";
 import Services from "./pages/Services";
 import ScrollToTopButton from "./pages/ScrollToTopButton";
+import YouTubePlayer from "./pages/YouTubePlayer";
+
+const playlist = ["Nz8uTe0wDQ8", "932CXJspKeY", "WfdpsvBwgB0"];
 
 function App() {
   return (
@@ -22,6 +25,7 @@ function App() {
       <Success />
       <Exams />
       {/* <Services /> */}
+      <YouTubePlayer playlist={playlist} />
       <Footer />
     </div>
   );
