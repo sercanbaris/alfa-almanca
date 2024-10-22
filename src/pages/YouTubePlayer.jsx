@@ -3,6 +3,7 @@ import YouTube from "react-youtube";
 import "../css/YouTubePlayer.css";
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
+import { useSwipeable } from "react-swipeable";
 
 const YouTubePlayer = ({ playlist }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -17,22 +18,21 @@ const YouTubePlayer = ({ playlist }) => {
     );
   };
 
+  const handlers = useSwipeable({
+    onSwipedLeft: handleNext,
+    onSwipedRight: handlePrev,
+    preventDefaultTouchmoveEvent: true,
+    trackMouse: true,
+  });
+
   return (
-    <div className="youtube-player">
+    <div className="youtube-player" {...handlers}>
       <button className="prev-button" onClick={handlePrev}>
-        <FaArrowLeft />
+        ←
       </button>
-      <YouTube
-        className="fullle"
-        opts={
-          window.innerWidth <= 768
-            ? { width: "100%", maxHeight: "100vh" }
-            : { width: "100%", height: "100%" }
-        }
-        videoId={playlist[currentIndex]}
-      />
+      <YouTube videoId={playlist[currentIndex]} />
       <button className="next-button" onClick={handleNext}>
-        <FaArrowRight />
+        →
       </button>
     </div>
   );
