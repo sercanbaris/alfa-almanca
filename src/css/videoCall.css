@@ -58,4 +58,12 @@
         background-attachment: scroll;
         min-height: 100vh;
     }
+
+    .v-parag {
+        color: aliceblue;
+        font-size: 15px;
+
+        text-align: justify;
+
+    }
 }

@@ -57,23 +57,22 @@ function Hero() {
             href="https://api.whatsapp.com/send/?phone=491782483080&text=Merhaba%2C+%C3%BCcretsiz+%C3%B6ng%C3%B6r%C3%BC%C5%9Fme+i%C3%A7in+randevu+alabilir+miyim%3F&type=phone_number&app_absent=0"
           >
             <FaWhatsapp className="whatsapp" />
-            Ücretsiz ön görüşme için randevu al
+            ÜCRETSİZ ÖN GÖRÜŞME İÇİN RANDEVU AL
           </a>
           <div className="description">
             Tamamen kendi zamanına bağlı olarak Almanya'da geçerli bir sınavı
-            istediğin seviyede geçene kadar <br />
-            zaman sınırın ve ders kaçırma problemin olmadan kısa sürede Almanca
-            öğren.
+            istediğin seviyede geçene kadar zaman sınırın ve ders kaçırma
+            problemin olmadan kısa sürede Almanca öğren.
             <br />
             <br />
             Kendimizi, Türkçe konuşan insanları başarılı bir şekilde hedeflerine
-            ulaştıran <br /> Almanya'da kurulmuş ilk online Almanca kursu olarak
+            ulaştıran Almanya'da kurulmuş ilk online Almanca kursu olarak
             görüyoruz.
           </div>
 
           <div className="slogan-container">
             <div className="slogan">
-              <span className="slogan-title">ÖĞRENME GARANTİSİ:</span>
+              <span className="slogan-title">ÖĞRENME GARANTİSİ</span>
               <ul>
                 <li>
                   ✅ Zaman sınırın yok. (Kitap bitti diye kur bitmiyor, sen
