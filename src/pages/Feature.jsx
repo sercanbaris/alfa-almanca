@@ -14,12 +14,11 @@ function Feature() {
         </div>
         <div className="f-title">Online Kurs</div>
         <div className="f-parag">
-          Gelişmek yenilik demek. <br />
-          Online kurs sana zaman ve mekan özgürlüğü veriyor. <br />
-          Eğitimlere ve öğretmenlere her yerden erişebilirsin. <br /> Doğru
-          öğretmenler ve kurs için kıymetli zamanından günde iki saat yolda
-          harcamana gerek yok. <br /> Belki bulunduğun konumda DOĞRU kurs ve
-          eğitmen de yoktur.
+          Gelişmek yenilik demek. Online kurs sana zaman ve mekan özgürlüğü
+          veriyor. Eğitimlere ve öğretmenlere her yerden erişebilirsin. <br />{" "}
+          <br /> Doğru öğretmenler ve kurs için kıymetli zamanından günde iki
+          saat yolda harcamana gerek yok. <br />
+          <br /> Belki bulunduğun konumda DOĞRU kurs ve eğitmen de yoktur. :)
         </div>
       </div>
       <div className="item item2">

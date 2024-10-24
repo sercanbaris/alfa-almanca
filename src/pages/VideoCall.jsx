@@ -1,36 +1,44 @@
 import "../css/videoCall.css";
+import { FaWhatsapp } from "react-icons/fa";
 
 function VideoCall() {
   return (
     <div className="videoCall">
       <div className="v-title">
-        Öğrenme Yolculuğunuza Bugün Başlayın! Şimdi Çevrimiçi Dil Kursumuza
-        Kaydolun
+        ALMANCA ÖĞENME İSTEĞİN <br /> İÇİNE TESADÜFEN DOĞMADI
       </div>
       <div className="v-parag">
         <p>
-          Yeni bir dil öğrenmek için doğru zaman şimdi!{" "}
-          <strong>Çevrimiçi dil kursumuza</strong>
-          kaydolarak, dil öğrenme yolculuğunuzu hızlandırabilir ve hedeflerinize
-          daha hızlı ulaşabilirsiniz. <strong>5B Metodumuz</strong> sayesinde,
-          dil becerilerinizi kapsamlı bir şekilde geliştirme fırsatı
-          bulacaksınız: <strong>konuşma, okuma, dinleme, yazma </strong>ve
-          ayrıntılı dilbilgisi eğitimi ile donatılan programımız, sınavlara
-          hazırlıkta da en büyük yardımcınız olacak.
+          Bugüne kadar kaç hayalini erteledin? Hayat koşturmacasında hangi güzel
+          anları kaçırdın? Bugün kendin için her gün yaptıkların dışında ne
+          yaptın?
         </p>
         <p>
-          Günlük ve düzenli etkileşim ile dil öğrenmede kalıcı başarı elde edin.
-          Esnek ve kişiselleştirilmiş eğitim programlarımızla, zamanınızı en iyi
-          şekilde değerlendirerek yeni bir dilde akıcılık kazanabilirsiniz.
-          Hemen kaydolun ve başarıya giden yolda ilk adımı atın!
+          Almanca sadece senin için Almanya'nın kapısını açan bir ANAHTAR olarak
+          kalmayacak.
         </p>
+        <p>
+          İlber Ortaylı'nın da dediği gibi "ALMANCA BİLMEYEN HİÇBİR ŞEY BİLMEZ".
+        </p>
+        <p>
+          Yeni bir dil öğrenmenin farklı kültürlere, ufuklara, dünyalara açılan
+          bir kapı olduğunu, zihnimizi dinç tutan bir nimet olduğunu ancak bu
+          serüvende olanlar bilir.
+        </p>
+        <p>
+          Almanca bilimin ve felsefenin dilidir. Öğreneceğin her kelimenin seni
+          günlük rutininden çıkarması ve kendin için bir şeyler yapmış olmanın
+          mutluluğunu vermesi dileğimizle.
+        </p>
+        <p></p>
       </div>
       <a
+        className="ucretsiz-gorusme"
         target="blank"
         href="https://api.whatsapp.com/send/?phone=491782483080&text=Merhaba%2C+%C3%BCcretsiz+%C3%B6ng%C3%B6r%C3%BC%C5%9Fme+i%C3%A7in+randevu+alabilir+miyim%3F&type=phone_number&app_absent=0"
-        className="v-buton"
       >
-        ÜCRETSİZ ÖNGÖRÜŞME İÇİN BAŞVUR
+        <FaWhatsapp className="whatsapp" />
+        ÜCRETSİZ ÖN GÖRÜŞME İÇİN RANDEVU AL
       </a>
     </div>
   );

@@ -94,6 +94,15 @@
         width: 100%;
         cursor: pointer;
         box-sizing: border-box;
+        height: 100%;
+
+
+    }
+
+    .f-parag {
+
+        font-size: 15px;
+        text-align: left;
 
     }
 }

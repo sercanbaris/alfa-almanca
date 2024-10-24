@@ -106,8 +106,7 @@ function Hero() {
           </div>
 
           <div className="description">
-            <strong>
-              {" "}
+            <strong className="bold-text">
               TÜM BUNLARIN YANINDA ÖĞRENCİLERİMİZLE SAMİMİ BİR İLİŞKİ
               İÇERİSİNDEYİZ, GÜCÜMÜZÜ ONLARDAN ALIYOR, BAŞARILARINI BAŞARIMIZ
               SAYIYOR, HEDEFLERİNE ULAŞANA KADAR ve SONRASINDA DA YANLARINDA
@@ -117,6 +116,8 @@ function Hero() {
             <br />
             Her bir öğrencimiz ile kayıt olmadan önce görüntülü ücretsiz bir{" "}
             öngörüşmede tanışıyor, tüm sistemimizi detayları ile anlatıyoruz.
+            <br />
+            <br />
           </div>
         </div>
       </div>
