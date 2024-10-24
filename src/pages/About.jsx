@@ -12,25 +12,34 @@ function About() {
           <div className="about-question">BİZ KİMİZ?</div>
           <div className="about-title">Dijital Almanca Dil Okulu</div>
           <div className="about-description">
-            <p>
-              Alfa Almanca, Almanca öğrenmeye ve kültürünü keşfetmeye tutkulu
-              bir ekibin ürünüdür. Misyonumuz, dil eğitimini daha erişilebilir,
-              etkili ve eğlenceli hale getirerek herkesin Almanca’yı öğrenme
-              şansına sahip olmasını sağlamaktır.
-            </p>
+            <p>Bir filiz ne ise ağaç ona dönüşür.</p>
 
             <p>
-              Günümüz yoğun hayatında en kıymetli şey zaman. Eğitimlerimiz
-              öğrencilerimizin zaman sınırı olmadan, tek rakibi kendileri
-              olacağı şekilde, sertifika sınavlarını geçene kadar onlara Almanca
-              öğretmek üzerine tasarlandı.
+              ALFA ALMANCA, Almanya'nın Hamburg şehrinde Alican Dayan tarafından
+              yanlış ve tamamen para odaklı eğitim sistemlerine KARŞI kurulmuş
+              "ÖĞRENCİSİNİ SONUCA GÖTÜRME" odaklı bir sistemdir.
             </p>
             <p>
-              Uzman öğretmenlerimiz, deneyimli yönetim ekibimiz ve her
-              öğrencinin bireysel gereksinimlerine odaklanan öğrenme
-              programlarımızla, Almanca dilini öğrenmek artık daha kolay ve
-              keyifli.
+              ALFA ALMANCA'nın filizi budur ve bugüne kadar yeşeren bu ağaçta şu
+              an 50 öğretmen ve 5bin öğrencimiz ile her geçen gün büyümeye devam
+              ediyoruz.
             </p>
+            <p>
+              Bizleri en anlamlı yansıtan ise öğrencilerimizin başarılarıdır.
+              Özgüvenimizi ve gururumuzu onlardan alıyoruz.
+            </p>
+            <p>
+              Alican Dayan'ın Instagram hesabı üzerinden sayısız öğrenci
+              yorumuna ve başarılarına erişebilirsin.
+            </p>
+            <a target="blank" href="https://www.instagram.com/alican_dayan/">
+              <img
+                className="alican-instagram"
+                src="/alican-instagram.png"
+                alt=""
+                width={"100%"}
+              />
+            </a>
           </div>
         </div>
       </div>
