@@ -1,6 +1,6 @@
 .success {
     height: 100vh;
-    background-image: url('/success.jpg'), linear-gradient(rgba(0, 0, 0, 0.827), rgba(0, 0, 0, 0.5));
+    background-image: url('/success.jpg'), linear-gradient(rgba(0, 0, 0, 0.827), rgba(0, 0, 0, 0.8));
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

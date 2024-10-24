@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer-logo">
           <img className="footer-logo-svg" src="/Original.svg" alt="" />
         </div>
-        <div className="footer-links">
+        {/* <div className="footer-links">
           <a className="footer-link" href="#">
             Ana Sayfa
           </a>
@@ -21,7 +21,7 @@ function Footer() {
           <a className="footer-link" href="#">
             İletişim
           </a>
-        </div>
+        </div> */}
         <div className="footer-sign">
           © 2024 All rights reserved by Alfa Almanca
         </div>
