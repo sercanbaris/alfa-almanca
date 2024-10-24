@@ -17,8 +17,9 @@ function Hero() {
           </a>
 
           <div className="title">
-            Ders Kaçırma ve Zaman Sınırın Olmadan <br /> Kısa Sürede <br />{" "}
-            Online <span className="almanca">ALMANCA</span> ÖĞREN
+            DERS KAÇIRMA VE ZAMAN SINIRIN OLMADAN ALMANYA'DA GEÇERLİ BİR
+            SERTİFİKA SINAVINI GEÇENE KADAR KISA SÜREDE ONLINE{" "}
+            <span className="almanca">ALMANCA</span> ÖĞREN
           </div>
 
           <ReactPlayer
@@ -60,11 +61,6 @@ function Hero() {
             ÜCRETSİZ ÖN GÖRÜŞME İÇİN RANDEVU AL
           </a>
           <div className="description">
-            Tamamen kendi zamanına bağlı olarak Almanya'da geçerli bir sınavı
-            istediğin seviyede geçene kadar zaman sınırın ve ders kaçırma
-            problemin olmadan kısa sürede Almanca öğren.
-            <br />
-            <br />
             Kendimizi, Türkçe konuşan insanları başarılı bir şekilde hedeflerine
             ulaştıran Almanya'da kurulmuş ilk online Almanca kursu olarak
             görüyoruz.

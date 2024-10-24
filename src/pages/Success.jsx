@@ -1,4 +1,5 @@
 import "../css/success.css";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Success() {
   return (
@@ -25,7 +26,14 @@ function Success() {
           dil eğitimi sunarak uzun vadede başarıya ulaşmanıza yardımcı olur.
         </p>
       </div>
-      <div className="success-buton">ÜCRETSİZ ÖNGÖRÜŞME İÇİN BAŞVUR</div>
+      <a
+        className="ucretsiz-gorusme"
+        target="blank"
+        href="https://api.whatsapp.com/send/?phone=491782483080&text=Merhaba%2C+%C3%BCcretsiz+%C3%B6ng%C3%B6r%C3%BC%C5%9Fme+i%C3%A7in+randevu+alabilir+miyim%3F&type=phone_number&app_absent=0"
+      >
+        <FaWhatsapp className="whatsapp" />
+        ÜCRETSİZ ÖN GÖRÜŞME İÇİN RANDEVU AL
+      </a>
     </div>
   );
 }
