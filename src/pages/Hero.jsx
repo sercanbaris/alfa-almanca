@@ -106,10 +106,13 @@ function Hero() {
           </div>
 
           <div className="description">
-            TÜM BUNLARIN YANINDA ÖĞRENCİLERİMİZLE SAMİMİ BİR İLİŞKİ
-            İÇERİSİNDEYİZ, GÜCÜMÜZÜ ONLARDAN ALIYOR, <br />
-            BAŞARILARINI BAŞARIMIZ SAYIYOR, HEDEFLERİNE ULAŞANA KADAR ve
-            SONRASINDA BİLE YANLARINDA OLUYORUZ.
+            <strong>
+              {" "}
+              TÜM BUNLARIN YANINDA ÖĞRENCİLERİMİZLE SAMİMİ BİR İLİŞKİ
+              İÇERİSİNDEYİZ, GÜCÜMÜZÜ ONLARDAN ALIYOR, BAŞARILARINI BAŞARIMIZ
+              SAYIYOR, HEDEFLERİNE ULAŞANA KADAR ve SONRASINDA DA YANLARINDA
+              OLUYORUZ.
+            </strong>
             <br />
             <br />
             Her bir öğrencimiz ile kayıt olmadan önce görüntülü ücretsiz bir{" "}
