@@ -1,4 +1,3 @@
-import React from "react";
 import "../css/exams.css";
 import { AiFillSafetyCertificate } from "react-icons/ai";
 
@@ -8,7 +7,7 @@ function Exams() {
       <div className="exams">
         <div className="exams-title">
           <AiFillSafetyCertificate />
-          Almanya'da Tanınan Dil Sınavları
+          Almanya&apos;da Tanınan Dil Sınavları
         </div>
         <div className="exams-desc">
           Uzmanlığımız, öğrencilerimize Almanca’yı en yeni öğretim yöntemleriyle

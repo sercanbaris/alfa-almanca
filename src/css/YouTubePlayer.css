@@ -4,16 +4,12 @@
     justify-content: space-evenly;
     position: relative;
     height: 100vh;
-
     flex-direction: column;
-
     background-image: url('/succ.jpg'), linear-gradient(rgba(0, 0, 0, 0.827), rgba(0, 0, 0, 0.5));
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-blend-mode: overlay;
-
-
 }
 
 .video-title {
@@ -44,12 +40,10 @@
 
 .prev-button {
     left: 200px;
-
 }
 
 .next-button {
     right: 200px;
-
 }
 
 .prev-button:hover,
@@ -63,17 +57,38 @@
         margin-top: 30px;
         max-width: 100% !important;
         height: 100%;
+        background-image: none;
+        background-color: black;
+    }
+
+
+    .prev-button,
+    .next-button {
+        background-color: var(--alfaBlue);
+        color: white;
+        border: 1px solid black;
+        border-radius: 0%;
+        font-size: 15px;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        margin-top: 250px;
+        z-index: 1000;
+        width: 50%;
     }
 
     .prev-button {
-        top: -30px;
-        left: 10px;
+        left: 0px;
     }
 
     .next-button {
-        top: -30px;
-        left: 10px;
+        right: 0px;
     }
+
 
 
     .fullle {
