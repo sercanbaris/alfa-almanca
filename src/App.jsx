@@ -1,16 +1,14 @@
-import React, { Suspense, lazy } from "react";
 import "./App.css";
-
-const Success = lazy(() => import("./pages/Success"));
-const Exams = lazy(() => import("./pages/Exams"));
-const ScrollToTopButton = lazy(() => import("./pages/ScrollToTopButton"));
-const YouTubePlayer = lazy(() => import("./pages/YouTubePlayer"));
-const Header = lazy(() => import("./pages/Header"));
-const Hero = lazy(() => import("./pages/Hero"));
-const Feature = lazy(() => import("./pages/Feature"));
-const VideoCall = lazy(() => import("./pages/VideoCall"));
-const About = lazy(() => import("./pages/About"));
-const Footer = lazy(() => import("./pages/Footer"));
+import Header from "./pages/Header";
+import Hero from "./pages/Hero";
+import Feature from "./pages/Feature";
+import VideoCall from "./pages/VideoCall";
+import About from "./pages/About";
+import Footer from "./pages/Footer";
+import Success from "./pages/Success";
+import Exams from "./pages/Exams";
+import ScrollToTopButton from "./pages/ScrollToTopButton";
+import YouTubePlayer from "./pages/YouTubePlayer";
 
 const playlist = [
   "Nz8uTe0wDQ8",
@@ -29,20 +27,19 @@ const playlist = [
 
 function App() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <div>
-        <ScrollToTopButton />
-        <Header />
-        <Hero />
-        <Feature />
-        <VideoCall />
-        <About />
-        <YouTubePlayer playlist={playlist} />
-        <Success />
-        <Exams />
-        <Footer />
-      </div>
-    </Suspense>
+    <div>
+      <ScrollToTopButton />
+      <Header />
+      <Hero />
+      <Feature />
+      <VideoCall />
+      <About />
+      <YouTubePlayer playlist={playlist} />
+      <Success />
+      <Exams />
+
+      <Footer />
+    </div>
   );
 }
 
