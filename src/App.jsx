@@ -37,8 +37,6 @@ function App() {
       <YouTubePlayer playlist={playlist} />
       <Success />
       <Exams />
-      {/* <Services /> */}
-
       <Footer />
     </div>
   );
