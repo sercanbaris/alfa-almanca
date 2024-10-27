@@ -73,21 +73,37 @@ function Exams() {
           </div>
 
           <div className="brand">
-            <img className="brand-pic" src="/goethe.png" alt="" />
+            <img
+              className="brand-pic"
+              src="/goethe.png"
+              alt="Goethe Institut"
+            />
             <span className="brand-name">Goethe Institut</span>
           </div>
           <div className="brand">
-            <img className="brand-pic" src="/TestDaF.png" alt="" />
+            <img
+              className="brand-pic"
+              src="/TestDaF.png"
+              alt="Test Deutsch als Fremdsprache"
+            />
             <span className="brand-name">Test Deutsch als Fremdsprache</span>
           </div>
           <div className="brand">
-            <img className="brand-pic" src="/DSH.png" alt="" />
+            <img
+              className="brand-pic"
+              src="/DSH.png"
+              alt="Deutsche Sprachprüfung für den Hochschulzugang"
+            />
             <span className="brand-name">
               Deutsche Sprachprüfung für den Hochschulzugang
             </span>
           </div>
           <div className="brand">
-            <img className="brand-pic" src="/OSD.png" alt="" />
+            <img
+              className="brand-pic"
+              src="/OSD.png"
+              alt="Österreichisches Sprachdiplom Deutsch"
+            />
             <span className="brand-name">
               Österreichisches Sprachdiplom Deutsch
             </span>

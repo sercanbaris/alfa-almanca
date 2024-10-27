@@ -6,7 +6,7 @@ function About() {
     <div className="about-container">
       <div className="about">
         <div className="about-picture">
-          <img className="about-pic" src="/alican.jpg" alt="" />
+          <img className="about-pic" src="/alican.jpg" alt="Alican Dayan" />
         </div>
         <div className="about-text">
           <div className="about-question">BİZ KİMİZ?</div>
@@ -36,7 +36,7 @@ function About() {
               <img
                 className="alican-instagram"
                 src="/alican-instagram.png"
-                alt=""
+                alt="Alfa Almanca - Alican Dayan Instagram"
                 width={"100%"}
               />
             </a>

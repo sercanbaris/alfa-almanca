@@ -6,7 +6,11 @@ function Footer() {
     <div className="footer-container">
       <div className="footer">
         <div className="footer-logo">
-          <img className="footer-logo-svg" src="/Original.svg" alt="" />
+          <img
+            className="footer-logo-svg"
+            src="/Original.svg"
+            alt="Alfa Almanca Logo"
+          />
         </div>
         {/* <div className="footer-links">
           <a className="footer-link" href="#">

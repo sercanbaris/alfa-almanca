@@ -33,13 +33,21 @@ function Hero() {
             {/* <img className="social-icons" src="/whatsapp.png" alt="" /> */}
 
             <a target="blank" href="http://www.instagram.com/alican_dayan">
-              <img className="social-icons" src="/instagram.png" alt="" />
+              <img
+                className="social-icons"
+                src="/instagram.png"
+                alt="Alfa Almanca - Instagram"
+              />
             </a>
             <a
               target="blank"
               href="https://www.google.com.tr/maps/place/ALFA+ALMANCA+Y%C3%96NET%C4%B0M+OF%C4%B0S%C4%B0+(KAYIT+OF%C4%B0S%C4%B0+DE%C4%9E%C4%B0LD%C4%B0R)/@38.449037,27.1826559,17z/data=!4m18!1m9!3m8!1s0x14b9636191362b7b:0x21f0df196b32c40e!2zQUxGQSBBTE1BTkNBIFnDlk5FVMSwTSBPRsSwU8SwIChLQVlJVCBPRsSwU8SwIERFxJ7EsExExLBSKQ!8m2!3d38.449037!4d27.1852308!9m1!1b1!16s%2Fg%2F11w3h1276w!3m7!1s0x14b9636191362b7b:0x21f0df196b32c40e!8m2!3d38.449037!4d27.1852308!9m1!1b1!16s%2Fg%2F11w3h1276w?hl=tr&entry=ttu&g_ep=EgoyMDI0MTAxNS4wIKXMDSoASAFQAw%3D%3D"
             >
-              <img className="social-icons" src="/google-maps.png" alt="" />
+              <img
+                className="social-icons"
+                src="/google-maps.png"
+                alt="Alfa Almanca - Google Yorumları"
+              />
             </a>
             <a
               target="blank"
@@ -48,7 +56,7 @@ function Hero() {
               <img
                 className="social-icons eksi"
                 src="/eksisozluk.jpeg"
-                alt=""
+                alt="Alfa Almanca - Ekşi Sözlük"
               />
             </a>
           </div>
