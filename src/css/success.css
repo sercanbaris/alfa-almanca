@@ -4,7 +4,6 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
     background-blend-mode: overlay;
     display: flex;
     align-items: center;
@@ -14,20 +13,25 @@
 }
 
 .success-title {
+    display: flex;
+    justify-content: center;
     background: linear-gradient(to right, #30CFD0, #c43ad6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 50px;
     font-weight: 500;
-    width: 700px;
+    width: 90%;
     text-align: center;
+    flex-direction: column;
 }
 
 
 .success-content {
+    display: flex;
+    flex-direction: column;
     color: aliceblue;
     font-size: 18px;
-    width: 80%;
+    width: 70%;
     text-align: justify;
     margin-top: 50px;
 }
@@ -59,6 +63,8 @@
     .success-content {
         font-size: 15px;
         text-align: ;
+        width: 90%;
+
     }
 
     .success {

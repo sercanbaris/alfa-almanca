@@ -7,7 +7,7 @@ function Success() {
       <div className="success-title">
         Dil Öğrenmenin Anahtarı: <br />
         <strong>5B Metodumuzla</strong>
-        <br /> Başarıya Ulaşın
+        Başarıya Ulaşın
       </div>
       <div className="success-content">
         <p>

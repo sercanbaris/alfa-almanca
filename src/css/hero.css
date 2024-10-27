@@ -5,7 +5,9 @@
     justify-content: center;
     flex-direction: column;
     margin-top: 20px;
+
 }
+
 
 .yesil {
     background-color: #23D366 !important;
@@ -137,6 +139,12 @@
     text-transform: uppercase;
     font-weight: 900;
     font-size: 30px;
+    width: 70%;
+}
+
+.bold-text {
+
+    width: 70%;
 
 }
 
@@ -153,7 +161,7 @@
     margin-top: 20px;
     font-weight: 300;
     text-align: center;
-    width: 100%;
+    width: 70%;
 
 }
 
@@ -226,11 +234,14 @@
         margin-bottom: 20px;
         text-align: center;
         font-size: 18px;
+        width: 95%;
+
 
     }
 
     .bold-text {
         font-size: 17px !important;
+        width: 95%;
 
     }
 
@@ -238,7 +249,7 @@
         margin-top: 15px;
         font-size: 15px;
         padding: 0px;
-        width: 90%;
+        width: 95%;
 
         text-align: center;
 
