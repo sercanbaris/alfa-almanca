@@ -61,7 +61,7 @@ function Hero() {
             </a>
           </div>
           <a
-            className="ucretsiz-gorusme yesil"
+            className="ucretsiz-gorusme "
             target="blank"
             href="https://api.whatsapp.com/send/?phone=905054178000&text=Merhaba%2C+%C3%BCcretsiz+%C3%B6ng%C3%B6r%C3%BC%C5%9Fme+i%C3%A7in+randevu+alabilir+miyim%3F&type=phone_number&app_absent=0"
           >
