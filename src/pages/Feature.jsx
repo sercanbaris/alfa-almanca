@@ -1,8 +1,6 @@
-import React from "react";
 import "../css/feature.css";
 import { RiPresentationLine } from "react-icons/ri";
 import { IoIosTimer } from "react-icons/io";
-import { IoLocationOutline } from "react-icons/io5";
 import { AiOutlineSafetyCertificate } from "react-icons/ai";
 
 function Feature() {
