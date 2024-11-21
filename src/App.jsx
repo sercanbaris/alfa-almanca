@@ -34,10 +34,11 @@ function App() {
       <Feature />
       <VideoCall />
       <About />
-      <YouTubePlayer playlist={playlist} />
-      <Success />
-      <Exams />
 
+      <Success />
+
+      <Exams />
+      <YouTubePlayer playlist={playlist} />
       <Footer />
     </div>
   );

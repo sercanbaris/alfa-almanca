@@ -1,71 +1,73 @@
-import React, { useState, useEffect, useCallback } from "react";
-import YouTube from "react-youtube";
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import React, { useState } from "react";
+import ReactPlayer from "react-player";
+
 import "../css/YouTubePlayer.css";
 
-const YouTubePlayer = ({ playlist }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+const YouTubePlayer = () => {
+  // Playlist array
+  const playlist = [
+    "Nz8uTe0wDQ8",
+    "932CXJspKeY",
+    "WfdpsvBwgB0",
+    "Bpr65cMj6Zo",
+    "-FVt43nLWzA",
+    "PA9yJKyvLI8",
+    "3B7TUl_5gpc",
+    "TcP8wbsJRoQ",
+    "5E5tN_SG3T8",
+    "YYbglq8UMe8",
+    "eG2MLPKTCjE",
+    "wPCtuOnphaY",
+  ];
 
-  const debounce = (func, delay) => {
-    let debounceTimer;
-    return function (...args) {
-      const context = this;
-      clearTimeout(debounceTimer);
-      debounceTimer = setTimeout(() => func.apply(context, args), delay);
-    };
+  // State to track the current video index
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  // Handle video switch
+  const handleVideoChange = (index) => {
+    setCurrentVideoIndex(index);
   };
 
-  const handleNext = useCallback(
-    debounce(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % playlist.length);
-    }, 300),
-    []
-  );
-
-  const handlePrev = useCallback(
-    debounce(() => {
-      setCurrentIndex(
-        (prevIndex) => (prevIndex - 1 + playlist.length) % playlist.length
-      );
-    }, 300),
-    []
-  );
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
-    };
-
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
   return (
-    <div className="youtube-player">
+    <div
+      className="youtube-player "
+      style={{ textAlign: "center", padding: "5px" }}
+    >
       <h1 className="video-title">Öğrenci Yorumları ve Başarıları</h1>
 
-      <button
-        className={isMobile ? "prev-button mobile" : "prev-button"}
-        onClick={handlePrev}
-      >
-        {isMobile ? "< Önceki" : <FaArrowLeft />}
-      </button>
+      {/* React Player */}
+      <div style={{ margin: "20px auto", maxWidth: "720px" }}>
+        <ReactPlayer
+          url={`https://www.youtube.com/watch?v=${playlist[currentVideoIndex]}`}
+          controls
+          width="100%"
+          height="400px"
+        />
+      </div>
 
-      <YouTube
-        className="fullle"
-        opts={isMobile ? { width: "100%", maxHeight: "100vh" } : {}}
-        videoId={playlist[currentIndex]}
-      />
-
-      <button
-        className={isMobile ? "next-button mobile" : "next-button"}
-        onClick={handleNext}
-      >
-        {isMobile ? "Sonraki >" : <FaArrowRight />}
-      </button>
+      {/* Buttons for video navigation */}
+      <div style={{ marginTop: "20px", marginBottom: "20px" }}>
+        {playlist.map((video, index) => (
+          <button
+            key={index}
+            onClick={() => handleVideoChange(index)}
+            style={{
+              padding: "10px 20px",
+              margin: "5px",
+              backgroundColor:
+                currentVideoIndex === index
+                  ? "var(--alfaBlue)"
+                  : "var(--alfaOrange)",
+              color: "#fff",
+              border: "none",
+              borderRadius: "5px",
+              cursor: "pointer",
+            }}
+          >
+            {index + 1}
+          </button>
+        ))}
+      </div>
     </div>
   );
 };
