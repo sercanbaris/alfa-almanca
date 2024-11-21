@@ -1,4 +1,5 @@
-import ReactPlayer from "react-player";
+"use server";
+import ReactPlayer from "react-player/youtube";
 import "../css/hero.css";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -23,11 +24,21 @@ function Hero() {
           </div>
 
           <ReactPlayer
-            width={"100%"}
-            height={"500px"}
+            width="900px"
+            height="500px"
             className="video"
-            url="https://vimeo.com/1004895881"
-            controls={true}
+            url="https://www.youtube.com/watch?v=-TVXhTztmtY"
+            controls={false}
+            config={{
+              youtube: {
+                playerVars: {
+                  modestbranding: 1, // YouTube logosunu kapatır
+                  showinfo: 0, // Video başlığını kapatır (eski API'lerde kullanılırdı, artık etkisiz)
+                  rel: 0, // Önerilen videoları kapatır
+                  disablekb: 1,
+                },
+              },
+            }}
           />
           <div className="social-media-logo">
             {/* <img className="social-icons" src="/whatsapp.png" alt="" /> */}
