@@ -17,6 +17,16 @@
     scale: 1.01;
 }
 
+.sari {
+    background-color: yellowgreen !important;
+    width: 200px !important;
+    transition: ease 0.4s;
+}
+
+.sari:hover {
+    scale: 1.01;
+}
+
 .ucretsiz-gorusme {
     text-align: center;
     display: flex;
@@ -102,8 +112,7 @@
     width: 70%;
 }
 
-.slogan ul {
-}
+.slogan ul {}
 
 .slogan ul li {
     list-style-type: none;
