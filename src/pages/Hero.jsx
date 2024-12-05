@@ -16,7 +16,7 @@ function Hero() {
             <FaWhatsapp className="whatsapp " />
             +90 505 417 80 00
           </a>
-          <p>
+          <p className="kirmizi">
             Talep yoğunluğu nedeniyle WhatsApp hattımız çökmüştür. Sorun
             giderilene kadar aşağıdaki numaradan ulaşabilirsiniz.
           </p>
@@ -92,7 +92,7 @@ function Hero() {
             ÜCRETSİZ ÖN GÖRÜŞME İÇİN RANDEVU AL
           </a>
 
-          <p>
+          <p className="kirmizi">
             "Talep yoğunluğu nedeniyle WhatsApp hattımız çökmüştür. Sorun
             giderilene kadar aşağıdaki numaradan ulaşabilirsiniz.""
           </p>

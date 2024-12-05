@@ -40,7 +40,7 @@ function VideoCall() {
         <FaWhatsapp className="whatsapp" />
         ÜCRETSİZ ÖN GÖRÜŞME İÇİN RANDEVU AL
       </a>
-      <p style={{ color: "whitesmoke" }}>
+      <p className="kirmizi">
         "Talep yoğunluğu nedeniyle WhatsApp hattımız çökmüştür. Sorun giderilene
         kadar aşağıdaki numaradan ulaşabilirsiniz.""
       </p>
