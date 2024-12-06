@@ -17,22 +17,6 @@
     scale: 1.01;
 }
 
-.sari {
-    background-color: yellowgreen !important;
-    width: 200px !important;
-    transition: ease 0.4s;
-}
-
-.sari:hover {
-    scale: 1.01;
-}
-
-.kirmizi {
-    color: red;
-    text-align: center;
-    font-size: 18px;
-}
-
 .ucretsiz-gorusme {
     text-align: center;
     display: flex;

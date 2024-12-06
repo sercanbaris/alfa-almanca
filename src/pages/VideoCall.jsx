@@ -40,18 +40,6 @@ function VideoCall() {
         <FaWhatsapp className="whatsapp" />
         ÜCRETSİZ ÖN GÖRÜŞME İÇİN RANDEVU AL
       </a>
-      <p className="kirmizi">
-        "Talep yoğunluğu nedeniyle WhatsApp hattımız çökmüştür. Sorun giderilene
-        kadar aşağıdaki numaradan ulaşabilirsiniz.""
-      </p>
-      <a
-        className="ucretsiz-gorusme sari"
-        target="blank"
-        href="https://api.whatsapp.com/send/?phone=905059749000&text=Merhaba%2C+%C3%BCcretsiz+%C3%B6ng%C3%B6r%C3%BC%C5%9Fme+i%C3%A7in+randevu+alabilir+miyim%3F&type=phone_number&app_absent=0"
-      >
-        <FaWhatsapp className="whatsapp " />
-        +90 505 974 90 00
-      </a>
     </div>
   );
 }
