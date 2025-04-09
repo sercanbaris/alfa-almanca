@@ -12,20 +12,14 @@ function Footer() {
             alt="Alfa Almanca Logo"
           />
         </div>
-        {/* <div className="footer-links">
-          <a className="footer-link" href="#">
-            Ana Sayfa
+        <div className="footer-links">
+          <a className="footer-link" href="/privacy">
+            Privacy Policy
           </a>
-          <a className="footer-link" href="#">
-            Hakkımızda
+          <a className="footer-link" href="/terms">
+            Terms of Service
           </a>
-          <a className="footer-link" href="#">
-            Yorumlar
-          </a>
-          <a className="footer-link" href="#">
-            İletişim
-          </a>
-        </div> */}
+        </div>
         <div className="footer-sign">
           © 2024 All rights reserved by Alfa Almanca
         </div>
