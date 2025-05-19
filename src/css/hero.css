@@ -23,6 +23,40 @@
 .gradientInstagram:hover {
   background-position: 100% 0%; /* Gradient'i kaydırıyoruz */
 }
+.gradientWhatsapp {
+  background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  transition: background-position 1s ease;
+  background-size: 200% 100%; /* Gradient'i genişletiyoruz */
+  background-position: 0% 0%;
+}
+
+.gradientWhatsapp:hover {
+  background-position: 100% 0%; /* Gradient'i kaydırıyoruz */
+}
+.gradientGoogle {
+background:linear-gradient(-120deg, #4285f4, #34a853, #fbbc05, #ea4335);
+  transition: background-position 1s ease;
+  background-size: 200% 100%; /* Gradient'i genişletiyoruz */
+  background-position: 0% 0%;
+}
+
+.gradientGoogle:hover {
+  background-position: 100% 0%; /* Gradient'i kaydırıyoruz */
+}
+.gradientEksisozluk {
+background:linear-gradient(90deg, #3ad59f 0%, #f8ff00 100%);
+
+  transition: background-position 1s ease;
+  background-size: 200% 100%; /* Gradient'i genişletiyoruz */
+  background-position: 0% 0%;
+}
+
+.gradientEksisozluk:hover {
+  background-position: 100% 0%; /* Gradient'i kaydırıyoruz */
+}
+
+
 .yesil:hover {
     scale: 1.01;
 }
@@ -30,7 +64,8 @@
 .ucretsiz-gorusme {
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    padding-left: 20px;
     align-items: center;
     width: 400px;
     background-color: var(--alfaOrange);
@@ -40,6 +75,7 @@
     border-radius: 10px;
     text-transform: uppercase;
     transition: ease 0.4s;
+    cursor: pointer;
 }
 
 .ucretsiz-gorusme:hover {
@@ -48,6 +84,7 @@
 
 .whatsapp {
     font-size: 24px;
+    margin-right: 5px;
 }
 
 .whatsappCall {

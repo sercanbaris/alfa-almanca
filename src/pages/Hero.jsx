@@ -3,6 +3,8 @@ import ReactPlayer from "react-player/youtube";
 import "../css/hero.css";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { FaGoogle } from "react-icons/fa";
+import { CiDroplet } from "react-icons/ci";
 
 function Hero() {
   return (
@@ -45,29 +47,9 @@ function Hero() {
             {/* <img className="social-icons" src="/whatsapp.png" alt="" /> */}
 
            
-            <a
-              target="blank"
-              href="https://www.google.com.tr/maps/place/ALFA+ALMANCA+Y%C3%96NET%C4%B0M+OF%C4%B0S%C4%B0+(KAYIT+OF%C4%B0S%C4%B0+DE%C4%9E%C4%B0LD%C4%B0R)/@38.449037,27.1826559,17z/data=!4m18!1m9!3m8!1s0x14b9636191362b7b:0x21f0df196b32c40e!2zQUxGQSBBTE1BTkNBIFnDlk5FVMSwTSBPRsSwU8SwIChLQVlJVCBPRsSwU8SwIERFxJ7EsExExLBSKQ!8m2!3d38.449037!4d27.1852308!9m1!1b1!16s%2Fg%2F11w3h1276w!3m7!1s0x14b9636191362b7b:0x21f0df196b32c40e!8m2!3d38.449037!4d27.1852308!9m1!1b1!16s%2Fg%2F11w3h1276w?hl=tr&entry=ttu&g_ep=EgoyMDI0MTAxNS4wIKXMDSoASAFQAw%3D%3D"
-            >
-              <img
-                className="social-icons"
-                src="/google-maps.png"
-                alt="Alfa Almanca - Google Yorumları"
-              />
-            </a>
-            <a
-              target="blank"
-              href="https://eksisozluk.com/alfa-almanca--7561051"
-            >
-              <img
-                className="social-icons eksi"
-                src="/eksisozluk.jpeg"
-                alt="Alfa Almanca - Ekşi Sözlük"
-              />
-            </a>
           </div>
           <a
-            className="ucretsiz-gorusme "
+            className="ucretsiz-gorusme gradientWhatsapp"
             target="blank"
             href="https://api.whatsapp.com/send/?phone=905059749000&text=Merhaba%2C+%C3%BCcretsiz+%C3%B6ng%C3%B6r%C3%BC%C5%9Fme+i%C3%A7in+randevu+alabilir+miyim%3F&type=phone_number&app_absent=0"
           >
@@ -79,11 +61,25 @@ function Hero() {
             style={{ marginTop: '5px' }}
             className="ucretsiz-gorusme gradientInstagram "
             target="blank"
-             href="http://www.instagram.com/alican_dayan"
-          >
-            
+             href="http://www.instagram.com/alican_dayan">
             <FaInstagram className="whatsapp" />
             INSTAGRAM'DAN TAKİP ET
+          </a>
+            <a
+            style={{ marginTop: '5px' }}
+            className="ucretsiz-gorusme gradientGoogle "
+            target="blank"
+             href="https://www.google.com.tr/maps/place/ALFA+ALMANCA+Y%C3%96NET%C4%B0M+OF%C4%B0S%C4%B0+(KAYIT+OF%C4%B0S%C4%B0+DE%C4%9E%C4%B0LD%C4%B0R)/@38.449037,27.1826559,17z/data=!4m18!1m9!3m8!1s0x14b9636191362b7b:0x21f0df196b32c40e!2zQUxGQSBBTE1BTkNBIFnDlk5FVMSwTSBPRsSwU8SwIChLQVlJVCBPRsSwU8SwIERFxJ7EsExExLBSKQ!8m2!3d38.449037!4d27.1852308!9m1!1b1!16s%2Fg%2F11w3h1276w!3m7!1s0x14b9636191362b7b:0x21f0df196b32c40e!8m2!3d38.449037!4d27.1852308!9m1!1b1!16s%2Fg%2F11w3h1276w?hl=tr&entry=ttu&g_ep=EgoyMDI0MTAxNS4wIKXMDSoASAFQAw%3D%3D">
+            <FaGoogle className="whatsapp" />
+            GOOGLE YORUMLARIMIZI GÖR
+          </a>
+            <a
+            style={{ marginTop: '5px' }}
+            className="ucretsiz-gorusme gradientEksisozluk "
+            target="blank"
+              href="https://eksisozluk.com/alfa-almanca--7561051">
+            <CiDroplet className="whatsapp" />
+            Ekşi Sözlük
           </a>
     
           <div className="description">
