@@ -11,10 +11,10 @@ function Hero() {
           <a
             className="ucretsiz-gorusme yesil"
             target="blank"
-            href="https://api.whatsapp.com/send/?phone=905054178000&text=Merhaba%2C+%C3%BCcretsiz+%C3%B6ng%C3%B6r%C3%BC%C5%9Fme+i%C3%A7in+randevu+alabilir+miyim%3F&type=phone_number&app_absent=0"
+            href="https://api.whatsapp.com/send/?phone=905059749000&text=Merhaba%2C+%C3%BCcretsiz+%C3%B6ng%C3%B6r%C3%BC%C5%9Fme+i%C3%A7in+randevu+alabilir+miyim%3F&type=phone_number&app_absent=0"
           >
             <FaWhatsapp className="whatsapp " />
-            +90 505 417 80 00
+            +90 505 974 90 00
           </a>
 
           <div className="title">
@@ -74,7 +74,7 @@ function Hero() {
           <a
             className="ucretsiz-gorusme "
             target="blank"
-            href="https://api.whatsapp.com/send/?phone=905054178000&text=Merhaba%2C+%C3%BCcretsiz+%C3%B6ng%C3%B6r%C3%BC%C5%9Fme+i%C3%A7in+randevu+alabilir+miyim%3F&type=phone_number&app_absent=0"
+            href="https://api.whatsapp.com/send/?phone=905059749000&text=Merhaba%2C+%C3%BCcretsiz+%C3%B6ng%C3%B6r%C3%BC%C5%9Fme+i%C3%A7in+randevu+alabilir+miyim%3F&type=phone_number&app_absent=0"
           >
             <FaWhatsapp className="whatsapp" />
             ÜCRETSİZ ÖN GÖRÜŞME İÇİN RANDEVU AL
