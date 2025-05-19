@@ -30,7 +30,7 @@
 .ucretsiz-gorusme {
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 400px;
     background-color: var(--alfaOrange);
