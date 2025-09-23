@@ -26,7 +26,15 @@ function Hero() {
             <span className="almanca">ALMANCA</span> ÖĞREN
           </div>
 
-          <ReactPlayer
+          {/* <ReactPlayer
+            width="900px"
+            height="500px"
+            className="video"
+            url="https://player.vimeo.com/video/1004895881"
+            controls={false}
+
+          /> */}
+          {/* <ReactPlayer
             width="900px"
             height="500px"
             className="video"
@@ -42,7 +50,16 @@ function Hero() {
                 },
               },
             }}
-          />
+          /> */}
+          <iframe 
+  src="https://player.vimeo.com/video/1004895881" 
+  width="900" 
+  height="500" 
+    className="video"
+  frameborder="0" 
+  allow="autoplay; fullscreen; picture-in-picture" 
+  allowfullscreen>
+</iframe>
           <div className="social-media-logo">
             {/* <img className="social-icons" src="/whatsapp.png" alt="" /> */}
 
