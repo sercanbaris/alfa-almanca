@@ -17,7 +17,7 @@ function Hero() {
             href="https://wa.me/905059749000?text=Merhabalar,+%C3%BCcretsiz+%C3%B6n+g%C3%B6r%C3%BC%C5%9Fme+i%C3%A7in+randevu+alabilir+miyim"
           >
             <FaWhatsapp className="whatsapp " />
-            +90 505 417 80 00
+            +90 505 974 90 00
           </a>
 
           <div className="title">
