@@ -1,12 +1,11 @@
 "use server";
-import ReactPlayer from "react-player/youtube";
 import "../css/hero.css";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
 import { CiDroplet } from "react-icons/ci";
 
-function Hero() {
+function Hero({ whatsAppNo, whatsAppLink }) {
   return (
     <div className="hero">
       <div className="ust">
@@ -14,10 +13,10 @@ function Hero() {
           <a
             className="ucretsiz-gorusme yesil"
             target="blank"
-            href="https://wa.me/905059749000?text=Merhabalar%2C%20%C3%BCcretsiz%20%C3%B6n%20g%C3%B6r%C3%BC%C5%9Fme%20i%C3%A7in%20randevu%20alabilir%20miyim%3F"
+            href={whatsAppLink}
           >
             <FaWhatsapp className="whatsapp " />
-            +90 505 974 90 00
+            {whatsAppNo}
           </a>
 
           <div className="title">
@@ -68,7 +67,7 @@ function Hero() {
           <a
             className="ucretsiz-gorusme gradientWhatsapp"
             target="blank"
-            href="https://wa.me/905059749000?text=Merhabalar%2C%20%C3%BCcretsiz%20%C3%B6n%20g%C3%B6r%C3%BC%C5%9Fme%20i%C3%A7in%20randevu%20alabilir%20miyim%3F"
+            href={whatsAppLink}
           >
             <FaWhatsapp className="whatsapp" />
             ÜCRETSİZ ÖN GÖRÜŞME İÇİN RANDEVU AL

@@ -13,14 +13,17 @@ import YouTubePlayer from "./pages/YouTubePlayer";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 
+const whatsAppNo = "+90 505 974 90 00";
+const whatsAppLink = "https://wa.me/905059749000?text=Merhabalar%2C%20%C3%BCcretsiz%20%C3%B6n%20g%C3%B6r%C3%BC%C5%9Fme%20i%C3%A7in%20randevu%20alabilir%20miyim%3F"
+
 function HomePage() {
   return (
     <>
-      <Hero />
+      <Hero whatsAppNo={whatsAppNo} whatsAppLink={whatsAppLink} />
       <Feature />
-      <VideoCall />
+      <VideoCall whatsAppLink={whatsAppLink} />
       <About />
-      <Success />
+      <Success whatsAppLink={whatsAppLink} />
       <Exams />
       <YouTubePlayer />
     </>
