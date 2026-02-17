@@ -35,7 +35,7 @@ function VideoCall() {
           <a
             className="ucretsiz-gorusme gradientWhatsapp"
             target="blank"
-            href="https://wa.me/905059749000?text=Merhabalar,+%C3%BCcretsiz+%C3%B6n+g%C3%B6r%C3%BC%C5%9Fme+i%C3%A7in+randevu+alabilir+miyim"
+            href="https://wa.me/905059749000?text=Merhabalar%2C%20%C3%BCcretsiz%20%C3%B6n%20g%C3%B6r%C3%BC%C5%9Fme%20i%C3%A7in%20randevu%20alabilir%20miyim%3F"
           >
             <FaWhatsapp className="whatsapp" />
             ÜCRETSİZ ÖN GÖRÜŞME İÇİN RANDEVU AL
