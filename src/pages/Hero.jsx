@@ -5,6 +5,8 @@ import { FaInstagram } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
 import { CiDroplet } from "react-icons/ci";
 
+
+
 function Hero({ whatsAppNo, whatsAppLink }) {
   return (
     <div className="hero">
@@ -159,5 +161,10 @@ function Hero({ whatsAppNo, whatsAppLink }) {
     </div>
   );
 }
+
+Hero.propTypes = {
+  whatsAppNo: PropTypes.string.isRequired,
+  whatsAppLink: PropTypes.string.isRequired,
+};
 
 export default Hero;

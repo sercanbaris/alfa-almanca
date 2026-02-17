@@ -1,6 +1,7 @@
 import "../css/videoCall.css";
 import { FaWhatsapp } from "react-icons/fa";
 
+
 function VideoCall({ whatsAppLink }) {
   return (
     <div className="videoCall">
